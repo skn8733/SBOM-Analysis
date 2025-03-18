@@ -19,4 +19,5 @@ The goal is to understand software supply chain security risks and compare SBOM 
 To generate an SBOM for a pre-compiled Rust or Go binary:
 ```bash
 syft binary:<your_binary> -o cyclonedx-json > output.json
-
+```
+This research is part of my work on **[SBOMit](https://github.com/SBOMit)** at NYU SSL.
